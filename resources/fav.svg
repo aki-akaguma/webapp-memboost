@@ -1,0 +1,34 @@
+<svg width="250" height="250" viewBox="0 0 250 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="125" cy="125" r="110" fill="#FF9800" />
+  
+  <!-- Cute Mascot Character (a friendly memory chip robot) -->
+  <!-- Body -->
+  <rect x="70" y="80" width="110" height="90" rx="15" fill="#FFFFFF" />
+  
+  <!-- Eyes -->
+  <circle cx="100" cy="115" r="8" fill="#333333" />
+  <circle cx="150" cy="115" r="8" fill="#333333" />
+  
+  <!-- Blush -->
+  <circle cx="85" cy="130" r="5" fill="#FFCCBC" opacity="0.8" />
+  <circle cx="165" cy="130" r="5" fill="#FFCCBC" opacity="0.8" />
+  
+  <!-- Smile -->
+  <path d="M 110 140 Q 125 155 140 140" stroke="#333333" stroke-width="3" fill="none" stroke-linecap="round" />
+  
+  <!-- Antennas/Connectors -->
+  <rect x="100" y="60" width="10" height="20" fill="#E65100" />
+  <rect x="140" y="60" width="10" height="20" fill="#E65100" />
+  
+  <!-- The 'M' symbol on the body -->
+  <path d="M 113 105 V 81 H 118 L 125 95 L 132 81 H 137 V 105 H 132 V 89 L 125 100 L 118 89 V 105 Z" fill="#FF9800" />
+  
+  <!-- Feet -->
+  <rect x="85" y="170" width="20" height="15" rx="5" fill="#E65100" />
+  <rect x="145" y="170" width="20" height="15" rx="5" fill="#E65100" />
+  
+  <!-- Sparkles to represent 'Boost' -->
+  <path d="M 200 60 L 210 50 M 205 55 L 215 65" stroke="#FFD54F" stroke-width="3" stroke-linecap="round" />
+  <path d="M 50 190 L 60 180 M 55 185 L 65 195" stroke="#FFD54F" stroke-width="3" stroke-linecap="round" />
+</svg>

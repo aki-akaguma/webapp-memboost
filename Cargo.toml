@@ -1,0 +1,39 @@
+[package]
+name = "memboost"
+version = "0.1.0"
+authors = ["aki <aki.akaguma@hotmail.com>"]
+edition = "2021"
+description = """
+Temporarily increases the amount of memory used and evicts other memory, thereby increasing free memory.
+"""
+keywords = ["webapp"]
+categories = ["desktop", "android"]
+#license = "MIT OR Apache-2.0"
+readme = "README.md"
+build = "build.rs"
+rust-version = "1.90.0"
+repository = "https://github.com/aki-akaguma/webapp-memboost"
+
+[dependencies]
+dioxus = { version = "0.7.3", features = ["fullstack"] }
+dioxus-desktop = { version = "0.7.3", optional = true }
+dioxus-logger = "0.7.3"
+console_error_panic_hook = "0.1"
+
+sysinfo = "0.38.2"
+async-sleep-aki = "0.1"
+
+[target.'cfg(target_os = "android")'.dependencies]
+openssl = { version = "0.10", features = ["vendored"] }
+
+[build-dependencies]
+rust-version-info-file = "0.2"
+
+[features]
+default = []
+web = ["dioxus/web"]
+desktop = ["dioxus/desktop", "dep:dioxus-desktop"]
+mobile = ["dioxus/mobile"]
+server = ["dioxus/server"]
+
+debian_build = []

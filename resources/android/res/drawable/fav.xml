@@ -1,0 +1,68 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="250dp"
+    android:height="250dp"
+    android:viewportWidth="250"
+    android:viewportHeight="250">
+  <group
+      android:scaleX="0.7"
+      android:scaleY="0.7"
+      android:translateX="40"
+      android:translateY="40"
+      >
+  <path
+      android:pathData="M125,125m-110,0a110,110 0,1 1,220 0a110,110 0,1 1,-220 0"
+      android:fillColor="#FF9800"/>
+  <path
+      android:pathData="M85,80L165,80A15,15 0,0 1,180 95L180,155A15,15 0,0 1,165 170L85,170A15,15 0,0 1,70 155L70,95A15,15 0,0 1,85 80z"
+      android:fillColor="#FFFFFF"/>
+  <path
+      android:pathData="M100,115m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+      android:fillColor="#333333"/>
+  <path
+      android:pathData="M150,115m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+      android:fillColor="#333333"/>
+  <path
+      android:pathData="M85,130m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+      android:strokeAlpha="0.8"
+      android:fillColor="#FFCCBC"
+      android:fillAlpha="0.8"/>
+  <path
+      android:pathData="M165,130m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+      android:strokeAlpha="0.8"
+      android:fillColor="#FFCCBC"
+      android:fillAlpha="0.8"/>
+  <path
+      android:pathData="M110,140Q125,155 140,140"
+      android:strokeWidth="3"
+      android:fillColor="#00000000"
+      android:strokeColor="#333333"
+      android:strokeLineCap="round"/>
+  <path
+      android:pathData="M100,60h10v20h-10z"
+      android:fillColor="#E65100"/>
+  <path
+      android:pathData="M140,60h10v20h-10z"
+      android:fillColor="#E65100"/>
+  <path
+      android:pathData="M113,105V81H118L125,95L132,81H137V105H132V89L125,100L118,89V105Z"
+      android:fillColor="#FF9800"/>
+  <path
+      android:pathData="M90,170L100,170A5,5 0,0 1,105 175L105,180A5,5 0,0 1,100 185L90,185A5,5 0,0 1,85 180L85,175A5,5 0,0 1,90 170z"
+      android:fillColor="#E65100"/>
+  <path
+      android:pathData="M150,170L160,170A5,5 0,0 1,165 175L165,180A5,5 0,0 1,160 185L150,185A5,5 0,0 1,145 180L145,175A5,5 0,0 1,150 170z"
+      android:fillColor="#E65100"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M200,60L210,50M205,55L215,65"
+      android:strokeWidth="3"
+      android:strokeColor="#FFD54F"
+      android:strokeLineCap="round"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M50,190L60,180M55,185L65,195"
+      android:strokeWidth="3"
+      android:strokeColor="#FFD54F"
+      android:strokeLineCap="round"/>
+  </group>
+</vector>
