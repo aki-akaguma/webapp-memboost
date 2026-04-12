@@ -37,3 +37,8 @@ mobile = ["dioxus/mobile"]
 server = ["dioxus/server"]
 
 debian_build = []
+
+[profile.release]
+strip = "debuginfo"
+opt-level = "s"
+lto = true

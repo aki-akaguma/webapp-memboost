@@ -26,7 +26,7 @@ bundle-web:
 	dx bundle --web --release --base-path "/memboost"
 
 bundle-desktop:
-	dx bundle --desktop --release
+	dx bundle --desktop --release --package-types appimage
 
 #	dx bundle --desktop --release --features backend_next
 
