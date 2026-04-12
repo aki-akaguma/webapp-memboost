@@ -15,8 +15,8 @@ rust-version = "1.90.0"
 repository = "https://github.com/aki-akaguma/webapp-memboost"
 
 [dependencies]
-dioxus = { version = "0.7.3", features = ["fullstack"] }
-dioxus-desktop = { version = "0.7.3", optional = true }
+dioxus = { version = "0.7.5", features = ["fullstack"] }
+dioxus-desktop = { version = "0.7.5", optional = true }
 dioxus-logger = "0.7.3"
 console_error_panic_hook = "0.1"
 
