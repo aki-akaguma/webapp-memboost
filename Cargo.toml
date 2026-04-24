@@ -15,11 +15,17 @@ rust-version = "1.90.0"
 repository = "https://github.com/aki-akaguma/webapp-memboost"
 
 [dependencies]
-dioxus = { version = "0.7.5", features = ["fullstack"] }
-dioxus-desktop = { version = "0.7.5", optional = true }
-dioxus-logger = "0.7.3"
-console_error_panic_hook = "0.1"
+# dioxus family
+dioxus = { version = "0.7.6", features = ["fullstack"] }
+dioxus-desktop = { version = "0.7.6", optional = true }
 
+# what dioxus depends on
+# what dioxus depends on, optional
+
+# other, optional
+console_error_panic_hook = { version = "0.1", optional = true }
+
+# other
 sysinfo = "0.38.2"
 async-sleep-aki = "0.1"
 
@@ -31,7 +37,8 @@ rust-version-info-file = "0.2"
 
 [features]
 default = []
-web = ["dioxus/web"]
+
+web = ["dioxus/web", "dep:console_error_panic_hook"]
 desktop = ["dioxus/desktop", "dep:dioxus-desktop"]
 mobile = ["dioxus/mobile"]
 server = ["dioxus/server"]
