@@ -16,8 +16,8 @@ repository = "https://github.com/aki-akaguma/webapp-memboost"
 
 [dependencies]
 # dioxus family
-dioxus = { version = "0.7.6", features = ["fullstack"] }
-dioxus-desktop = { version = "0.7.6", optional = true }
+dioxus = { version = "0.7.7", features = ["fullstack"] }
+dioxus-desktop = { version = "0.7.7", optional = true }
 
 # what dioxus depends on
 # what dioxus depends on, optional
